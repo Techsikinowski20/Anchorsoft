@@ -1,0 +1,130 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+:root{
+    --main: grey;
+    --primary: black;
+}
+/* styling header */
+.navbar{
+    background-color: grey;
+}
+.container .navbar-brand{
+    font-size: 2.5rem;
+    color: black;
+}
+.container .navbar-brand:hover{
+    color: var(--primary);
+}
+.navbar-nav a{
+    font-size: 1.8rem;
+    color: var(--primary);
+}
+.navbar-nav a:hover{
+    color: grey;
+}
+.navbar-nav{
+    gap: 15px;
+}
+.dropdown ul{
+    background-color: var(--main) !important;
+}
+
+/* styling header done */
+
+/* styling body */
+.bpost{
+    margin-top: 5%;
+}
+.c1{
+    margin-left: 9%;
+    margin-top: 3%;
+}
+
+.bleft h1{
+    font-size: 3rem;
+}
+.bleft h4{
+    font-size: 2rem;
+}
+.dept{
+    padding-left: 12%;
+
+}
+.bright{
+    min-width: 50%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    margin-bottom: 5%;
+    background-color: gray;
+    text-align: center;
+    font-size: 8rem;
+    padding: 15% 25%;
+}
+
+.bleft .c3{
+    font-size: 1.6rem;
+}
+/* styling body done */
+
+/* styling body 2 */
+
+#basement{
+    margin-top: 8%;
+}
+#basement h5{
+    font-size: 2.5rem;
+}
+.container h1{
+    font-size: 3rem;
+}
+.container p{
+    font-size: 1.5rem;
+}
+.container .bae{
+    margin-top: 3%;
+    margin-left: 80%;
+}
+.baseless{
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 13%;
+    font-size: 2rem;
+}
+.baseless i{
+    color: black;
+}
+/* styling body 2 done */
+.base{
+    margin-left: 10%;
+    font-size: 5rem;
+    margin-top: 6%;
+    margin-bottom: 3%;
+}
+.containers .based{
+    background-color: var(--main);
+    height: 200px;
+    width: 300px;
+    border-radius: 0.5rem;
+    padding-top: 20%;
+    padding-left: 30%;
+    font-size: 3.5rem;
+}
+.containers .bases{
+    margin-left: 9%;
+}
+.card-body{
+    font-size: 2rem;
+}
+.bases a{
+    font-size: 1.6rem;
+    margin-bottom: 3%;
+}
+.department .btn{
+    font-size: 1.6rem;
+}
